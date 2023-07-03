@@ -1,0 +1,46 @@
+Command Line Interface CLI -> interfaccia a riga di comando
+    >non user friendly
+Graphic User Interface GUI -> interfaccia grafica in modo visuale 
+    >finestre e widget interazione con mouse e tastiera
+        *WIDGET-> qualsiasi elemento costitutivo di un'applicazione GUI
+
+Tkinter -> Tk interface -> libreria che permette di creare GUI  
+    >sta nella libreria standard di Python
+    >crossplatform
+    >stabile
+
+Essa usa gli elementi nativi del sistema operativo
+
+from tkinter import *
+from tkinter.ttk import * #WIDGET e migliora l'aspetto
+    #se rimossa il programma funziona MA peggiora la grafica
+
+
+COMPONENTI PRINCIPALI
+    *OGGETTO MASTER ->rappresenta la finestra principale e il thread di esecuzione principale
+                    ogni applicazione avrà la sua instanza di Tk()
+        root=Tk()
+
+    *WIDGET -> Componenti grafici
+        CREAZIONE OGGETTO oggetto
+            >oggetto.pack() 
+                Metto il widget nel oggetto master
+
+    *Main Event Loop -> ciclo di eventi principale
+        >responsabile dell'laborazione di tutti gli eventi
+            root.mainloop()
+        >termina quando il programma non è chiuso
+
+
+TIPI DI TKINTER
+    >StringVar
+    >IntVar
+    >DoubleVar
+    >BoolVar
+    Si usano questi tipi per:
+        *propagare le variazioni in modo automatico a tutti i widget che fanno loro riferimento;
+        *generare un evento quando vengono modificati.
+
+GESTIONE DELLA GEOMETRIA
+    pack() ->metto un componente dentro un altro padre
+    grid()-> gestione di righe e colonne come tabella nell'oggetto padre
