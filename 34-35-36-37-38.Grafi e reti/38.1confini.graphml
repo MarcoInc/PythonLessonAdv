@@ -1,0 +1,1001 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="Lunghezza confine" attr.type="double"/>
+<graph edgedefault="undirected"><node id="Abkhazia">
+  <data key="d0">382.0</data>
+</node>
+<node id="Russia">
+  <data key="d0">20017.0</data>
+</node>
+<node id="Georgia">
+  <data key="d0">1461.0</data>
+</node>
+<node id="Afghanistan">
+  <data key="d0">5529.0</data>
+</node>
+<node id="People's Republic of China">
+  <data key="d0">22147.0</data>
+</node>
+<node id="Iran">
+  <data key="d0">5440.0</data>
+</node>
+<node id="Pakistan">
+  <data key="d0">6774.0</data>
+</node>
+<node id="Tajikistan">
+  <data key="d0">3651.0</data>
+</node>
+<node id="Turkmenistan">
+  <data key="d0">3736.0</data>
+</node>
+<node id="Uzbekistan">
+  <data key="d0">6221.0</data>
+</node>
+<node id="India">
+  <data key="d0">14209.0</data>
+</node>
+<node id="Albania">
+  <data key="d0">720.0</data>
+</node>
+<node id="Greece">
+  <data key="d0">1228.0</data>
+</node>
+<node id="Kosovo">
+  <data key="d0">701.0</data>
+</node>
+<node id="North Macedonia">
+  <data key="d0">766.0</data>
+</node>
+<node id="Montenegro">
+  <data key="d0">625.0</data>
+</node>
+<node id="Algeria">
+  <data key="d0">6470.0</data>
+</node>
+<node id="Libya">
+  <data key="d0">4348.0</data>
+</node>
+<node id="Mali">
+  <data key="d0">7243.0</data>
+</node>
+<node id="Mauritania">
+  <data key="d0">5074.0</data>
+</node>
+<node id="Morocco">
+  <data key="d0">2018.0</data>
+</node>
+<node id="Niger">
+  <data key="d0">5697.0</data>
+</node>
+<node id="Tunisia">
+  <data key="d0">1469.0</data>
+</node>
+<node id="Western Sahara">
+  <data key="d0">2046.0</data>
+</node>
+<node id="Andorra">
+  <data key="d0">120.0</data>
+</node>
+<node id="France">
+  <data key="d0">4082.0</data>
+</node>
+<node id="Spain">
+  <data key="d0">1918.0</data>
+</node>
+<node id="Angola">
+  <data key="d0">5198.0</data>
+</node>
+<node id="Democratic Republic of the Congo">
+  <data key="d0">10730.0</data>
+</node>
+<node id="Republic of the Congo">
+  <data key="d0">5504.0</data>
+</node>
+<node id="Namibia">
+  <data key="d0">3936.0</data>
+</node>
+<node id="Zambia">
+  <data key="d0">5667.0</data>
+</node>
+<node id="Antigua and Barbuda">
+  <data key="d0">0.0</data>
+</node>
+<node id="Argentina">
+  <data key="d0">9665.0</data>
+</node>
+<node id="Bolivia">
+  <data key="d0">6743.0</data>
+</node>
+<node id="Brazil">
+  <data key="d0">14691.0</data>
+</node>
+<node id="Chile">
+  <data key="d0">6171.0</data>
+</node>
+<node id="Paraguay">
+  <data key="d0">3920.0</data>
+</node>
+<node id="Uruguay">
+  <data key="d0">1564.0</data>
+</node>
+<node id="Armenia">
+  <data key="d0">1254.0</data>
+</node>
+<node id="Azerbaijan">
+  <data key="d0">2013.0</data>
+</node>
+<node id="Turkey">
+  <data key="d0">2648.0</data>
+</node>
+<node id="Australia">
+  <data key="d0">0.0</data>
+</node>
+<node id="Austria">
+  <data key="d0">2562.0</data>
+</node>
+<node id="Czech Republic">
+  <data key="d0">1881.0</data>
+</node>
+<node id="Germany">
+  <data key="d0">3621.0</data>
+</node>
+<node id="Hungary">
+  <data key="d0">2171.0</data>
+</node>
+<node id="Italy">
+  <data key="d0">1932.0</data>
+</node>
+<node id="Liechtenstein">
+  <data key="d0">76.0</data>
+</node>
+<node id="Slovakia">
+  <data key="d0">1524.0</data>
+</node>
+<node id="Slovenia">
+  <data key="d0">1334.0</data>
+</node>
+<node id="Switzerland">
+  <data key="d0">1852.0</data>
+</node>
+<node id="Bahamas">
+  <data key="d0">0.0</data>
+</node>
+<node id="Bahrain">
+  <data key="d0">0.0</data>
+</node>
+<node id="Bangladesh">
+  <data key="d0">4246.0</data>
+</node>
+<node id="Dahagram-Angarpota"/>
+<node id="Myanmar">
+  <data key="d0">5876.0</data>
+</node>
+<node id="Barbados">
+  <data key="d0">0.0</data>
+</node>
+<node id="Belarus">
+  <data key="d0">2900.0</data>
+</node>
+<node id="Latvia">
+  <data key="d0">1150.0</data>
+</node>
+<node id="Lithuania">
+  <data key="d0">1273.0</data>
+</node>
+<node id="Poland">
+  <data key="d0">2788.0</data>
+</node>
+<node id="Ukraine">
+  <data key="d0">4663.0</data>
+</node>
+<node id="Belgium">
+  <data key="d0">1385.0</data>
+</node>
+<node id="Luxembourg">
+  <data key="d0">359.0</data>
+</node>
+<node id="Netherlands">
+  <data key="d0">1027.0</data>
+</node>
+<node id="Belize">
+  <data key="d0">516.0</data>
+</node>
+<node id="Guatemala">
+  <data key="d0">1687.0</data>
+</node>
+<node id="Mexico">
+  <data key="d0">4353.0</data>
+</node>
+<node id="Benin">
+  <data key="d0">1989.0</data>
+</node>
+<node id="Burkina Faso">
+  <data key="d0">3193.0</data>
+</node>
+<node id="Nigeria">
+  <data key="d0">4047.0</data>
+</node>
+<node id="Togo">
+  <data key="d0">1647.0</data>
+</node>
+<node id="Bhutan">
+  <data key="d0">1075.0</data>
+</node>
+<node id="Peru">
+  <data key="d0">5536.0</data>
+</node>
+<node id="Bosnia and Herzegovina">
+  <data key="d0">1459.0</data>
+</node>
+<node id="Croatia">
+  <data key="d0">2197.0</data>
+</node>
+<node id="Serbia">
+  <data key="d0">2027.0</data>
+</node>
+<node id="Botswana">
+  <data key="d0">4015.0</data>
+</node>
+<node id="South Africa">
+  <data key="d0">4862.0</data>
+</node>
+<node id="Zimbabwe">
+  <data key="d0">3066.0</data>
+</node>
+<node id="Colombia">
+  <data key="d0">6004.0</data>
+</node>
+<node id="French Guiana"/>
+<node id="Guyana">
+  <data key="d0">2462.0</data>
+</node>
+<node id="Suriname">
+  <data key="d0">1707.0</data>
+</node>
+<node id="Venezuela">
+  <data key="d0">4993.0</data>
+</node>
+<node id="Brunei">
+  <data key="d0">381.0</data>
+</node>
+<node id="Malaysia">
+  <data key="d0">3147.0</data>
+</node>
+<node id="Bulgaria">
+  <data key="d0">1808.0</data>
+</node>
+<node id="Romania">
+  <data key="d0">2508.0</data>
+</node>
+<node id="Côte d'Ivoire">
+  <data key="d0">3110.0</data>
+</node>
+<node id="Ghana">
+  <data key="d0">2094.0</data>
+</node>
+<node id="Burundi">
+  <data key="d0">974.0</data>
+</node>
+<node id="Rwanda">
+  <data key="d0">893.0</data>
+</node>
+<node id="Tanzania">
+  <data key="d0">3861.0</data>
+</node>
+<node id="Cambodia">
+  <data key="d0">2572.0</data>
+</node>
+<node id="Laos">
+  <data key="d0">5083.0</data>
+</node>
+<node id="Thailand">
+  <data key="d0">4863.0</data>
+</node>
+<node id="Vietnam">
+  <data key="d0">4639.0</data>
+</node>
+<node id="Cameroon">
+  <data key="d0">4591.0</data>
+</node>
+<node id="Central African Republic">
+  <data key="d0">5213.0</data>
+</node>
+<node id="Chad">
+  <data key="d0">5968.0</data>
+</node>
+<node id="Equatorial Guinea">
+  <data key="d0">539.0</data>
+</node>
+<node id="Gabon">
+  <data key="d0">2551.0</data>
+</node>
+<node id="Canada">
+  <data key="d0">8894.0</data>
+</node>
+<node id="United States">
+  <data key="d0">12034.0</data>
+</node>
+<node id="Greenland"/>
+<node id="Denmark">
+  <data key="d0">68.0</data>
+</node>
+<node id="Cape Verde">
+  <data key="d0">0.0</data>
+</node>
+<node id="South Sudan">
+  <data key="d0">4797.0</data>
+</node>
+<node id="Sudan">
+  <data key="d0">6764.0</data>
+</node>
+<node id="Kazakhstan">
+  <data key="d0">12012.0</data>
+</node>
+<node id="North Korea">
+  <data key="d0">1673.0</data>
+</node>
+<node id="Kyrgyzstan">
+  <data key="d0">3878.0</data>
+</node>
+<node id="Mongolia">
+  <data key="d0">8220.0</data>
+</node>
+<node id="Nepal">
+  <data key="d0">2926.0</data>
+</node>
+<node id="Ecuador">
+  <data key="d0">2010.0</data>
+</node>
+<node id="Panama">
+  <data key="d0">555.0</data>
+</node>
+<node id="Comoros">
+  <data key="d0">0.0</data>
+</node>
+<node id="Uganda">
+  <data key="d0">2698.0</data>
+</node>
+<node id="Costa Rica">
+  <data key="d0">639.0</data>
+</node>
+<node id="Nicaragua">
+  <data key="d0">1231.0</data>
+</node>
+<node id="Guinea">
+  <data key="d0">3399.0</data>
+</node>
+<node id="Liberia">
+  <data key="d0">1585.0</data>
+</node>
+<node id="Cuba">
+  <data key="d0">0.0</data>
+</node>
+<node id="Cyprus">
+  <data key="d0">152.0</data>
+</node>
+<node id="Akrotiri and Dhekelia"/>
+<node id="United Kingdom">
+  <data key="d0">652.2</data>
+</node>
+<node id="Denmark, Kingdom of">
+  <data key="d0">69.0</data>
+</node>
+<node id="Djibouti">
+  <data key="d0">528.0</data>
+</node>
+<node id="Eritrea">
+  <data key="d0">1626.0</data>
+</node>
+<node id="Ethiopia">
+  <data key="d0">5328.0</data>
+</node>
+<node id="Somaliland"/>
+<node id="Dominica">
+  <data key="d0">0.0</data>
+</node>
+<node id="Dominican Republic">
+  <data key="d0">360.0</data>
+</node>
+<node id="Haiti">
+  <data key="d0">360.0</data>
+</node>
+<node id="East Timor">
+  <data key="d0">228.0</data>
+</node>
+<node id="Indonesia">
+  <data key="d0">2830.0</data>
+</node>
+<node id="Egypt">
+  <data key="d0">2665.0</data>
+</node>
+<node id="Gaza Strip"/>
+<node id="State of Palestine"/>
+<node id="Israel">
+  <data key="d0">1017.0</data>
+</node>
+<node id="El Salvador">
+  <data key="d0">545.0</data>
+</node>
+<node id="Honduras">
+  <data key="d0">1520.0</data>
+</node>
+<node id="Estonia">
+  <data key="d0">633.0</data>
+</node>
+<node id="Eswatini">
+  <data key="d0">535.0</data>
+</node>
+<node id="Mozambique">
+  <data key="d0">4571.0</data>
+</node>
+<node id="Kenya">
+  <data key="d0">3477.0</data>
+</node>
+<node id="Somalia">
+  <data key="d0">2340.0</data>
+</node>
+<node id="Fiji">
+  <data key="d0">0.0</data>
+</node>
+<node id="Finland">
+  <data key="d0">2690.0</data>
+</node>
+<node id="Norway">
+  <data key="d0">2551.0</data>
+</node>
+<node id="Sweden">
+  <data key="d0">2233.0</data>
+</node>
+<node id="France, Metropolitan">
+  <data key="d0">2889.0</data>
+</node>
+<node id="Monaco">
+  <data key="d0">4.4</data>
+</node>
+<node id="Sint Maarten"/>
+<node id="The Gambia">
+  <data key="d0">740.0</data>
+</node>
+<node id="Senegal">
+  <data key="d0">2640.0</data>
+</node>
+<node id="South Ossetia">
+  <data key="d0">466.0</data>
+</node>
+<node id="Grenada">
+  <data key="d0">0.0</data>
+</node>
+<node id="Guinea-Bissau">
+  <data key="d0">724.0</data>
+</node>
+<node id="Sierra Leone">
+  <data key="d0">958.0</data>
+</node>
+<node id="Hong Kong">
+  <data key="d0">30.0</data>
+</node>
+<node id="Iceland">
+  <data key="d0">0.0</data>
+</node>
+<node id="Sri Lanka">
+  <data key="d0">0.0</data>
+</node>
+<node id="Ram Setu"/>
+<node id="Borders of India"/>
+<node id="Papua New Guinea">
+  <data key="d0">820.0</data>
+</node>
+<node id="Iraq">
+  <data key="d0">3650.0</data>
+</node>
+<node id="Jordan">
+  <data key="d0">1635.0</data>
+</node>
+<node id="Kuwait">
+  <data key="d0">462.0</data>
+</node>
+<node id="Saudi Arabia">
+  <data key="d0">4431.0</data>
+</node>
+<node id="Syria">
+  <data key="d0">2253.0</data>
+</node>
+<node id="Ireland">
+  <data key="d0">499.0</data>
+</node>
+<node id="Lebanon">
+  <data key="d0">454.0</data>
+</node>
+<node id="West Bank"/>
+<node id="state of Palestine"/>
+<node id="San Marino">
+  <data key="d0">39.0</data>
+</node>
+<node id="Vatican City">
+  <data key="d0">3.2</data>
+</node>
+<node id="Jamaica">
+  <data key="d0">0.0</data>
+</node>
+<node id="Japan">
+  <data key="d0">0.0</data>
+</node>
+<node id="Kiribati">
+  <data key="d0">0.0</data>
+</node>
+<node id="South Korea">
+  <data key="d0">238.0</data>
+</node>
+<node id="Lesotho">
+  <data key="d0">909.0</data>
+</node>
+<node id="Macau">
+  <data key="d0">0.34</data>
+</node>
+<node id="Madagascar">
+  <data key="d0">0.0</data>
+</node>
+<node id="Madeira">
+  <data key="d0">0.0</data>
+</node>
+<node id="Malawi">
+  <data key="d0">2881.0</data>
+</node>
+<node id="Maldives">
+  <data key="d0">0.0</data>
+</node>
+<node id="Malta">
+  <data key="d0">0.0</data>
+</node>
+<node id="Marshall Islands">
+  <data key="d0">0.0</data>
+</node>
+<node id="Mauritius">
+  <data key="d0">0.0</data>
+</node>
+<node id="Federated States of Micronesia">
+  <data key="d0">0.0</data>
+</node>
+<node id="Moldova">
+  <data key="d0">1389.0</data>
+</node>
+<node id="Nauru">
+  <data key="d0">0.0</data>
+</node>
+<node id="Netherlands, Kingdom of">
+  <data key="d0">1037.0</data>
+</node>
+<node id="Saint Martin"/>
+<node id="New Zealand">
+  <data key="d0">0.0</data>
+</node>
+<node id="Oman">
+  <data key="d0">1374.0</data>
+</node>
+<node id="United Arab Emirates">
+  <data key="d0">867.0</data>
+</node>
+<node id="Yemen">
+  <data key="d0">1746.0</data>
+</node>
+<node id="Palau">
+  <data key="d0">0.0</data>
+</node>
+<node id="Palestine">
+  <data key="d0">466.0</data>
+</node>
+<node id="Philippines">
+  <data key="d0">0.0</data>
+</node>
+<node id="Portugal">
+  <data key="d0">1214.0</data>
+</node>
+<node id="Qatar">
+  <data key="d0">60.0</data>
+</node>
+<node id="Saint Kitts and Nevis">
+  <data key="d0">0.0</data>
+</node>
+<node id="Saint Lucia">
+  <data key="d0">0.0</data>
+</node>
+<node id="Saint Vincent and the Grenadines">
+  <data key="d0">0.0</data>
+</node>
+<node id="Samoa">
+  <data key="d0">0.0</data>
+</node>
+<node id="São Tomé and Príncipe">
+  <data key="d0">0.0</data>
+</node>
+<node id="Seychelles">
+  <data key="d0">0.0</data>
+</node>
+<node id="Singapore">
+  <data key="d0">0.0</data>
+</node>
+<node id="Solomon Islands">
+  <data key="d0">0.0</data>
+</node>
+<node id="Gibraltar"/>
+<node id="Åland"/>
+<node id="Taiwan">
+  <data key="d0">0.0</data>
+</node>
+<node id="Tonga">
+  <data key="d0">0.0</data>
+</node>
+<node id="Trinidad and Tobago">
+  <data key="d0">0.0</data>
+</node>
+<node id="Tuvalu">
+  <data key="d0">0.0</data>
+</node>
+<node id="Vanuatu">
+  <data key="d0">0.0</data>
+</node>
+<edge source="Abkhazia" target="Russia"/>
+<edge source="Abkhazia" target="Georgia"/>
+<edge source="Russia" target="Azerbaijan"/>
+<edge source="Russia" target="Belarus"/>
+<edge source="Russia" target="People's Republic of China"/>
+<edge source="Russia" target="Estonia"/>
+<edge source="Russia" target="Finland"/>
+<edge source="Russia" target="Georgia"/>
+<edge source="Russia" target="Kazakhstan"/>
+<edge source="Russia" target="North Korea"/>
+<edge source="Russia" target="Latvia"/>
+<edge source="Russia" target="Lithuania"/>
+<edge source="Russia" target="Mongolia"/>
+<edge source="Russia" target="Norway"/>
+<edge source="Russia" target="Poland"/>
+<edge source="Russia" target="Ukraine"/>
+<edge source="Russia" target="South Ossetia"/>
+<edge source="Georgia" target="Armenia"/>
+<edge source="Georgia" target="Azerbaijan"/>
+<edge source="Georgia" target="Turkey"/>
+<edge source="Georgia" target="South Ossetia"/>
+<edge source="Afghanistan" target="People's Republic of China"/>
+<edge source="Afghanistan" target="Iran"/>
+<edge source="Afghanistan" target="Pakistan"/>
+<edge source="Afghanistan" target="Tajikistan"/>
+<edge source="Afghanistan" target="Turkmenistan"/>
+<edge source="Afghanistan" target="Uzbekistan"/>
+<edge source="Afghanistan" target="India"/>
+<edge source="People's Republic of China" target="Bhutan"/>
+<edge source="People's Republic of China" target="India"/>
+<edge source="People's Republic of China" target="Kazakhstan"/>
+<edge source="People's Republic of China" target="North Korea"/>
+<edge source="People's Republic of China" target="Kyrgyzstan"/>
+<edge source="People's Republic of China" target="Laos"/>
+<edge source="People's Republic of China" target="Mongolia"/>
+<edge source="People's Republic of China" target="Myanmar"/>
+<edge source="People's Republic of China" target="Nepal"/>
+<edge source="People's Republic of China" target="Pakistan"/>
+<edge source="People's Republic of China" target="Tajikistan"/>
+<edge source="People's Republic of China" target="Vietnam"/>
+<edge source="People's Republic of China" target="Hong Kong"/>
+<edge source="People's Republic of China" target="Macau"/>
+<edge source="Iran" target="Armenia"/>
+<edge source="Iran" target="Azerbaijan"/>
+<edge source="Iran" target="Iraq"/>
+<edge source="Iran" target="Pakistan"/>
+<edge source="Iran" target="Turkey"/>
+<edge source="Iran" target="Turkmenistan"/>
+<edge source="Pakistan" target="India"/>
+<edge source="Tajikistan" target="Kyrgyzstan"/>
+<edge source="Tajikistan" target="Uzbekistan"/>
+<edge source="Turkmenistan" target="Kazakhstan"/>
+<edge source="Turkmenistan" target="Uzbekistan"/>
+<edge source="Uzbekistan" target="Kazakhstan"/>
+<edge source="Uzbekistan" target="Kyrgyzstan"/>
+<edge source="India" target="Bangladesh"/>
+<edge source="India" target="Bhutan"/>
+<edge source="India" target="Myanmar"/>
+<edge source="India" target="Nepal"/>
+<edge source="India" target="Sri Lanka"/>
+<edge source="India" target="Ram Setu"/>
+<edge source="India" target="Borders of India"/>
+<edge source="Albania" target="Greece"/>
+<edge source="Albania" target="Kosovo"/>
+<edge source="Albania" target="North Macedonia"/>
+<edge source="Albania" target="Montenegro"/>
+<edge source="Greece" target="Bulgaria"/>
+<edge source="Greece" target="Turkey"/>
+<edge source="Greece" target="North Macedonia"/>
+<edge source="Kosovo" target="Montenegro"/>
+<edge source="Kosovo" target="North Macedonia"/>
+<edge source="Kosovo" target="Serbia"/>
+<edge source="North Macedonia" target="Bulgaria"/>
+<edge source="North Macedonia" target="Serbia"/>
+<edge source="Montenegro" target="Bosnia and Herzegovina"/>
+<edge source="Montenegro" target="Croatia"/>
+<edge source="Montenegro" target="Serbia"/>
+<edge source="Algeria" target="Libya"/>
+<edge source="Algeria" target="Mali"/>
+<edge source="Algeria" target="Mauritania"/>
+<edge source="Algeria" target="Morocco"/>
+<edge source="Algeria" target="Niger"/>
+<edge source="Algeria" target="Tunisia"/>
+<edge source="Algeria" target="Western Sahara"/>
+<edge source="Libya" target="Chad"/>
+<edge source="Libya" target="Egypt"/>
+<edge source="Libya" target="Niger"/>
+<edge source="Libya" target="Sudan"/>
+<edge source="Libya" target="Tunisia"/>
+<edge source="Mali" target="Burkina Faso"/>
+<edge source="Mali" target="Côte d'Ivoire"/>
+<edge source="Mali" target="Guinea"/>
+<edge source="Mali" target="Mauritania"/>
+<edge source="Mali" target="Niger"/>
+<edge source="Mali" target="Senegal"/>
+<edge source="Mauritania" target="Senegal"/>
+<edge source="Mauritania" target="Western Sahara"/>
+<edge source="Morocco" target="Western Sahara"/>
+<edge source="Morocco" target="Spain"/>
+<edge source="Niger" target="Benin"/>
+<edge source="Niger" target="Burkina Faso"/>
+<edge source="Niger" target="Chad"/>
+<edge source="Niger" target="Nigeria"/>
+<edge source="Andorra" target="France"/>
+<edge source="Andorra" target="Spain"/>
+<edge source="Andorra" target="France, Metropolitan"/>
+<edge source="France" target="Belgium"/>
+<edge source="France" target="Brazil"/>
+<edge source="France" target="Germany"/>
+<edge source="France" target="Italy"/>
+<edge source="France" target="Luxembourg"/>
+<edge source="France" target="Monaco"/>
+<edge source="France" target="Sint Maarten"/>
+<edge source="France" target="Netherlands"/>
+<edge source="France" target="Spain"/>
+<edge source="France" target="Suriname"/>
+<edge source="France" target="Switzerland"/>
+<edge source="France" target="Netherlands, Kingdom of"/>
+<edge source="Spain" target="France, Metropolitan"/>
+<edge source="Spain" target="Portugal"/>
+<edge source="Spain" target="Gibraltar"/>
+<edge source="Spain" target="United Kingdom"/>
+<edge source="Angola" target="Democratic Republic of the Congo"/>
+<edge source="Angola" target="Republic of the Congo"/>
+<edge source="Angola" target="Namibia"/>
+<edge source="Angola" target="Zambia"/>
+<edge source="Democratic Republic of the Congo" target="Burundi"/>
+<edge source="Democratic Republic of the Congo" target="Central African Republic"/>
+<edge source="Democratic Republic of the Congo" target="Republic of the Congo"/>
+<edge source="Democratic Republic of the Congo" target="Rwanda"/>
+<edge source="Democratic Republic of the Congo" target="South Sudan"/>
+<edge source="Democratic Republic of the Congo" target="Tanzania"/>
+<edge source="Democratic Republic of the Congo" target="Uganda"/>
+<edge source="Democratic Republic of the Congo" target="Zambia"/>
+<edge source="Republic of the Congo" target="Cameroon"/>
+<edge source="Republic of the Congo" target="Central African Republic"/>
+<edge source="Republic of the Congo" target="Gabon"/>
+<edge source="Namibia" target="Botswana"/>
+<edge source="Namibia" target="South Africa"/>
+<edge source="Namibia" target="Zambia"/>
+<edge source="Zambia" target="Botswana"/>
+<edge source="Zambia" target="Malawi"/>
+<edge source="Zambia" target="Mozambique"/>
+<edge source="Zambia" target="Tanzania"/>
+<edge source="Zambia" target="Zimbabwe"/>
+<edge source="Argentina" target="Bolivia"/>
+<edge source="Argentina" target="Brazil"/>
+<edge source="Argentina" target="Chile"/>
+<edge source="Argentina" target="Paraguay"/>
+<edge source="Argentina" target="Uruguay"/>
+<edge source="Bolivia" target="Brazil"/>
+<edge source="Bolivia" target="Chile"/>
+<edge source="Bolivia" target="Paraguay"/>
+<edge source="Bolivia" target="Peru"/>
+<edge source="Brazil" target="Colombia"/>
+<edge source="Brazil" target="French Guiana"/>
+<edge source="Brazil" target="Guyana"/>
+<edge source="Brazil" target="Paraguay"/>
+<edge source="Brazil" target="Peru"/>
+<edge source="Brazil" target="Suriname"/>
+<edge source="Brazil" target="Uruguay"/>
+<edge source="Brazil" target="Venezuela"/>
+<edge source="Chile" target="Peru"/>
+<edge source="Armenia" target="Azerbaijan"/>
+<edge source="Armenia" target="Turkey"/>
+<edge source="Azerbaijan" target="Turkey"/>
+<edge source="Turkey" target="Bulgaria"/>
+<edge source="Turkey" target="Iraq"/>
+<edge source="Turkey" target="Syria"/>
+<edge source="Austria" target="Czech Republic"/>
+<edge source="Austria" target="Germany"/>
+<edge source="Austria" target="Hungary"/>
+<edge source="Austria" target="Italy"/>
+<edge source="Austria" target="Liechtenstein"/>
+<edge source="Austria" target="Slovakia"/>
+<edge source="Austria" target="Slovenia"/>
+<edge source="Austria" target="Switzerland"/>
+<edge source="Czech Republic" target="Germany"/>
+<edge source="Czech Republic" target="Poland"/>
+<edge source="Czech Republic" target="Slovakia"/>
+<edge source="Germany" target="Belgium"/>
+<edge source="Germany" target="Denmark"/>
+<edge source="Germany" target="Denmark, Kingdom of"/>
+<edge source="Germany" target="France, Metropolitan"/>
+<edge source="Germany" target="Luxembourg"/>
+<edge source="Germany" target="Netherlands"/>
+<edge source="Germany" target="Poland"/>
+<edge source="Germany" target="Switzerland"/>
+<edge source="Germany" target="Netherlands, Kingdom of"/>
+<edge source="Hungary" target="Croatia"/>
+<edge source="Hungary" target="Romania"/>
+<edge source="Hungary" target="Serbia"/>
+<edge source="Hungary" target="Slovakia"/>
+<edge source="Hungary" target="Slovenia"/>
+<edge source="Hungary" target="Ukraine"/>
+<edge source="Italy" target="France, Metropolitan"/>
+<edge source="Italy" target="San Marino"/>
+<edge source="Italy" target="Slovenia"/>
+<edge source="Italy" target="Switzerland"/>
+<edge source="Italy" target="Vatican City"/>
+<edge source="Liechtenstein" target="Switzerland"/>
+<edge source="Slovakia" target="Poland"/>
+<edge source="Slovakia" target="Ukraine"/>
+<edge source="Slovenia" target="Croatia"/>
+<edge source="Switzerland" target="France, Metropolitan"/>
+<edge source="Bangladesh" target="Dahagram-Angarpota"/>
+<edge source="Bangladesh" target="Myanmar"/>
+<edge source="Myanmar" target="Laos"/>
+<edge source="Myanmar" target="Thailand"/>
+<edge source="Belarus" target="Latvia"/>
+<edge source="Belarus" target="Lithuania"/>
+<edge source="Belarus" target="Poland"/>
+<edge source="Belarus" target="Ukraine"/>
+<edge source="Latvia" target="Estonia"/>
+<edge source="Latvia" target="Lithuania"/>
+<edge source="Lithuania" target="Poland"/>
+<edge source="Poland" target="Ukraine"/>
+<edge source="Ukraine" target="Moldova"/>
+<edge source="Ukraine" target="Romania"/>
+<edge source="Belgium" target="Luxembourg"/>
+<edge source="Belgium" target="Netherlands"/>
+<edge source="Belgium" target="France, Metropolitan"/>
+<edge source="Belgium" target="Netherlands, Kingdom of"/>
+<edge source="Luxembourg" target="France, Metropolitan"/>
+<edge source="Belize" target="Guatemala"/>
+<edge source="Belize" target="Mexico"/>
+<edge source="Guatemala" target="El Salvador"/>
+<edge source="Guatemala" target="Honduras"/>
+<edge source="Guatemala" target="Mexico"/>
+<edge source="Mexico" target="United States"/>
+<edge source="Benin" target="Burkina Faso"/>
+<edge source="Benin" target="Nigeria"/>
+<edge source="Benin" target="Togo"/>
+<edge source="Burkina Faso" target="Côte d'Ivoire"/>
+<edge source="Burkina Faso" target="Ghana"/>
+<edge source="Burkina Faso" target="Togo"/>
+<edge source="Nigeria" target="Cameroon"/>
+<edge source="Nigeria" target="Chad"/>
+<edge source="Togo" target="Ghana"/>
+<edge source="Peru" target="Colombia"/>
+<edge source="Peru" target="Ecuador"/>
+<edge source="Bosnia and Herzegovina" target="Croatia"/>
+<edge source="Bosnia and Herzegovina" target="Serbia"/>
+<edge source="Croatia" target="Serbia"/>
+<edge source="Serbia" target="Bulgaria"/>
+<edge source="Serbia" target="Romania"/>
+<edge source="Botswana" target="South Africa"/>
+<edge source="Botswana" target="Zimbabwe"/>
+<edge source="South Africa" target="Eswatini"/>
+<edge source="South Africa" target="Lesotho"/>
+<edge source="South Africa" target="Mozambique"/>
+<edge source="South Africa" target="Zimbabwe"/>
+<edge source="Zimbabwe" target="Mozambique"/>
+<edge source="Colombia" target="Ecuador"/>
+<edge source="Colombia" target="Panama"/>
+<edge source="Colombia" target="Venezuela"/>
+<edge source="French Guiana" target="Suriname"/>
+<edge source="Guyana" target="Suriname"/>
+<edge source="Guyana" target="Venezuela"/>
+<edge source="Brunei" target="Malaysia"/>
+<edge source="Malaysia" target="Indonesia"/>
+<edge source="Malaysia" target="Thailand"/>
+<edge source="Bulgaria" target="Romania"/>
+<edge source="Romania" target="Moldova"/>
+<edge source="Côte d'Ivoire" target="Ghana"/>
+<edge source="Côte d'Ivoire" target="Guinea"/>
+<edge source="Côte d'Ivoire" target="Liberia"/>
+<edge source="Burundi" target="Rwanda"/>
+<edge source="Burundi" target="Tanzania"/>
+<edge source="Rwanda" target="Tanzania"/>
+<edge source="Rwanda" target="Uganda"/>
+<edge source="Tanzania" target="Kenya"/>
+<edge source="Tanzania" target="Malawi"/>
+<edge source="Tanzania" target="Mozambique"/>
+<edge source="Tanzania" target="Uganda"/>
+<edge source="Cambodia" target="Laos"/>
+<edge source="Cambodia" target="Thailand"/>
+<edge source="Cambodia" target="Vietnam"/>
+<edge source="Laos" target="Thailand"/>
+<edge source="Laos" target="Vietnam"/>
+<edge source="Cameroon" target="Central African Republic"/>
+<edge source="Cameroon" target="Chad"/>
+<edge source="Cameroon" target="Equatorial Guinea"/>
+<edge source="Cameroon" target="Gabon"/>
+<edge source="Central African Republic" target="Chad"/>
+<edge source="Central African Republic" target="South Sudan"/>
+<edge source="Central African Republic" target="Sudan"/>
+<edge source="Chad" target="Sudan"/>
+<edge source="Equatorial Guinea" target="Gabon"/>
+<edge source="Canada" target="United States"/>
+<edge source="Canada" target="Greenland"/>
+<edge source="Canada" target="Denmark"/>
+<edge source="Canada" target="Denmark, Kingdom of"/>
+<edge source="South Sudan" target="Ethiopia"/>
+<edge source="South Sudan" target="Kenya"/>
+<edge source="South Sudan" target="Sudan"/>
+<edge source="South Sudan" target="Uganda"/>
+<edge source="Sudan" target="Egypt"/>
+<edge source="Sudan" target="Eritrea"/>
+<edge source="Sudan" target="Ethiopia"/>
+<edge source="Kazakhstan" target="Kyrgyzstan"/>
+<edge source="North Korea" target="South Korea"/>
+<edge source="Panama" target="Costa Rica"/>
+<edge source="Uganda" target="Kenya"/>
+<edge source="Costa Rica" target="Nicaragua"/>
+<edge source="Nicaragua" target="Honduras"/>
+<edge source="Guinea" target="Guinea-Bissau"/>
+<edge source="Guinea" target="Liberia"/>
+<edge source="Guinea" target="Senegal"/>
+<edge source="Guinea" target="Sierra Leone"/>
+<edge source="Liberia" target="Sierra Leone"/>
+<edge source="Cyprus" target="Akrotiri and Dhekelia"/>
+<edge source="Cyprus" target="United Kingdom"/>
+<edge source="United Kingdom" target="Ireland"/>
+<edge source="Djibouti" target="Eritrea"/>
+<edge source="Djibouti" target="Ethiopia"/>
+<edge source="Djibouti" target="Somaliland"/>
+<edge source="Djibouti" target="Somalia"/>
+<edge source="Eritrea" target="Ethiopia"/>
+<edge source="Ethiopia" target="Kenya"/>
+<edge source="Ethiopia" target="Somalia"/>
+<edge source="Dominican Republic" target="Haiti"/>
+<edge source="East Timor" target="Indonesia"/>
+<edge source="Indonesia" target="Papua New Guinea"/>
+<edge source="Egypt" target="Gaza Strip"/>
+<edge source="Egypt" target="State of Palestine"/>
+<edge source="Egypt" target="Israel"/>
+<edge source="Egypt" target="Palestine"/>
+<edge source="Gaza Strip" target="Israel"/>
+<edge source="State of Palestine" target="Israel"/>
+<edge source="State of Palestine" target="Jordan"/>
+<edge source="Israel" target="Jordan"/>
+<edge source="Israel" target="Lebanon"/>
+<edge source="Israel" target="Syria"/>
+<edge source="Israel" target="West Bank"/>
+<edge source="Israel" target="state of Palestine"/>
+<edge source="Israel" target="Palestine"/>
+<edge source="El Salvador" target="Honduras"/>
+<edge source="Eswatini" target="Mozambique"/>
+<edge source="Mozambique" target="Malawi"/>
+<edge source="Kenya" target="Somalia"/>
+<edge source="Finland" target="Norway"/>
+<edge source="Finland" target="Sweden"/>
+<edge source="Norway" target="Sweden"/>
+<edge source="Sweden" target="Åland"/>
+<edge source="France, Metropolitan" target="Monaco"/>
+<edge source="The Gambia" target="Senegal"/>
+<edge source="Senegal" target="Guinea-Bissau"/>
+<edge source="Iraq" target="Jordan"/>
+<edge source="Iraq" target="Kuwait"/>
+<edge source="Iraq" target="Saudi Arabia"/>
+<edge source="Iraq" target="Syria"/>
+<edge source="Jordan" target="Saudi Arabia"/>
+<edge source="Jordan" target="Syria"/>
+<edge source="Jordan" target="West Bank"/>
+<edge source="Jordan" target="Palestine"/>
+<edge source="Kuwait" target="Saudi Arabia"/>
+<edge source="Saudi Arabia" target="Oman"/>
+<edge source="Saudi Arabia" target="Qatar"/>
+<edge source="Saudi Arabia" target="United Arab Emirates"/>
+<edge source="Saudi Arabia" target="Yemen"/>
+<edge source="Syria" target="Lebanon"/>
+<edge source="Netherlands, Kingdom of" target="Saint Martin"/>
+<edge source="Oman" target="United Arab Emirates"/>
+<edge source="Oman" target="Yemen"/>
+</graph></graphml>

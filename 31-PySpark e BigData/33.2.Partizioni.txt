@@ -1,0 +1,14 @@
+PARTIZIONE -> Suddivisione logica dei dataset in base ai core dei nodi
+    >distribuisce la elaborazione dei dati su più nodi
+    
+getNumPartitions() -> ritorna il numero di partizioni
+
+partitioner() -> sceglie il criterio di partizionamento
+    -altri
+        *partitionBy() -> ripartire i dati in partizioni   
+            >1° argomento OBBLIGATORIO ->numero di partizioni desiderate
+            >2° argomento OPZIONALE -> una funzione
+        *glom() ->riaggrega in un unico RDD
+        *coalesce() -> riduce il numero di partizioni
+        
+Se non si effettuano partizioni, Spark di base partiziona automaticamente

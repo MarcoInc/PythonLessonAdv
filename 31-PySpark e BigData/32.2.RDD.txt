@@ -1,0 +1,40 @@
+Reilient Distributed Dataset -> RDD
+    -è una struttura dati di PySpark:
+        *resistente a perdite di dat ed errori
+        *processabile in parallelo
+            >motivo per cui è processabile da più nodi del cluster
+
+Ottenere un RDD
+    *Parallelizzare strutture dati Python
+        -immediata per modulare dati già presenti
+    *Caricare dataset memorizzati su file
+
+Operazioni su RDD -> MapReduce
+    *Trasformazioni -> modifiche che producono un altro RDD
+        >comportamento lazy -> mon immediate
+            -eseguite quando spark lo reputa necessario
+        >Trasformazioni più comuni
+            >map di MapReduce -> prepara i dati
+            >filter -> filtra gli elementi RDD con criterio
+            >flatMap -> come map ma che per ogni elemento c'è
+                        una sequenza di risultati
+            >groupByKey -> raggruppa gli elementi in coppie chiave/valore
+                           in cui ogni chiave è iterabile per ottenere i valori
+            >groupBy -> raggruppa in base ad un criterio
+            >reduceByKey -> applica reduce raccogliendo elementi per chiave
+            >sortByKey -> ordina coppie chiave/valore in base alle chiavi
+            >coalesce -> riduce il numero di partizioni prodotte
+
+    *Azioni ->funzioni che ritornano un risultato
+        -Azioni più comuni:
+            >reduce di MapReduce -> aggrega i dati in base ad una funzione
+                                    passata come argomento
+            >collect -> ritorna gli elementi del RDD come struttura dati Python
+            >count -> conta gli elementi
+            >first -> ritorna il primo elemento
+            >take -> ritorna i primi n elementi
+            >saveAsTextFile -> salva RDD in un file di testo
+            >foreach -> esegue una funzione per ogni elemento   
+                        è quindi un'iterazione/ciclo
+
+Le operazioni sono espresse in METODI da invocare su un oggetto RDD

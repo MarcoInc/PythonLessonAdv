@@ -1,0 +1,29 @@
+PASSI PER ANALISI DI UNA RETE:
+    *Identificare entità discrete e relazioni
+        >entità -> nodi
+        >relazioni -> archi:
+            -natura binaria(assente o presente) 
+            -continue o discrete se non sono binarie
+                *archi pesati o non pesati 
+                    >se non supera soglia di campionamento
+                        -soglia alta -> rete sparsa e frammentata
+                        -soglia bassa -> groviglio
+    *Calcoli sulla rete sulla:
+        >densità
+        >numero componenti
+        >dimensione GCC
+        >diametro
+        >centralità
+        >coefficenti di clustering
+    *Identificare le comunita della rete    
+        -se la rete è modulare:
+            >assegnare etichette alle comunità
+            >sostituire comunità con supernodi
+            >studiare la rete così generata
+    *Produrre un report grafico per interpretare i dati
+
+Il modulo networkX fornisce quasi tutto il necessario
+per l'analisi di una rete
+    >Gephi -> fornisce la rappresentazione grafica
+
+    

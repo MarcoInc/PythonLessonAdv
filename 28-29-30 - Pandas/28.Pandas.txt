@@ -1,0 +1,17 @@
+PANDAS è una libreria fondata su Numpy
+per la manipolazione dei dati
+    strumento utile per Data scientist
+    riduce il tempo necessario alla preparazione dei dati
+    alte perfomance e facilità uso
+    presente in Anaconda
+Strutture dati principali -> 
+    DataFrame
+    Series
+Operazioni -> su dati tabulari mono e bidimenionali
+    Indicizzazione monolivello e gerarchica
+    gestione dei dati mancanti
+    Operazioni artimetiche e booleane su intere colonne e tabelle
+    operazioni database come unione e aggregazione
+    tracciamento grafico di singole colonnne e intere tabelle
+    lettura e scrittura di dati da file
+

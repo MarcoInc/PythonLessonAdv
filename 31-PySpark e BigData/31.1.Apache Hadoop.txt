@@ -1,0 +1,160 @@
+Apache Hadoop è un framework per gestire i Big Data
+    *Affidabile ->sicura
+    *Scalabile
+    *Distrubuita su più nodi
+
+    
+Componenti principali
+    *Hadoop Common
+        -librerie condivise tra tutti i moduli Hadoop
+        
+    *HDFS -> Hadoop Distributed File System
+        -File system distribuito e robusto che fa uso di supporti hardware
+        -Accomuna nodi che costituiscono un CLUSTER
+            >Cluster -> numerose macchine che devono garantire
+                        un alto grado di affilibilità
+                >Scalabilità orrizontale in cui si preferisce 
+                avere più nodi piuttosto che il loro potenziamento
+                
+                >Ogni macchina deve evere il proprio ruolo
+                    -per PRODUZIONE ci vuole un cluster
+                    -per STUDIO o TEST non è necessario un cluster
+            
+            >I file devono essere suddivisi in blocchi da 64MB o 128MB
+             e vanno replicati in più nodi
+                *Più copie garantiscono 
+                    -una migliore lettura
+                    -garanzia di avere più copie in caso di errori  
+                *Rack-aware
+                    -i blocchi di dati vanno replicati anche in rack differenti                 
+    *MapReduce 
+        -Algoritmo di elaborazione per elaborare i dati in cluster
+    
+    *Hadoop YARN -> Yet Another Resource Manager
+        -Ambiente di elaborazione di MapReduce e altri framework
+        
+MODALITÀ DI INSTALLAZIONE E FUNZIONAMENTO:
+    *Stand-alone
+        -Funzionamento è racchiuso in un unico processo Java
+    *Pseudo-distributed
+        -Funzionamento suddiviso in più processi Java
+    *Fully-distributed
+        -Si usano più nodi (reali o virtuali) in cui si 
+         crea un cluster Hadoop reale da estendere in base alle necessità
+
+ECOSISTEMA -> Varie funzionalità
+    *DATA STORAGE
+        HDFS
+    *DATA PROCESSING
+        Map Reduce
+        YARN
+    *DATA ACCESS
+    *DATA MANAGMENT
+
+PROGETTI ECOSISTEMA HADOOP
+    *STRUMENTI PER ELABORAZIONI DATI-> si integrano a MapReduce e YARN
+        -SPARK->Framework molto potente con tanti moduli->Scritto in SCALA
+        -TEZ -> Modello di programmazione basato su YARN
+        -DRILL -> Query SQL schema free
+        -ZEPPELIN -> propone netbook in stile web che può usare SQL e Scala
+        -IMPALA -> Ambiente ispirato a SQL e parallelizza l'esecuzioni su
+                  nodi di un cluster Hadoop
+
+    *STRUMENTI PER LA GESTIONE DI DATI SU HDFS
+        -HIVE -> ideato da Facebook che usa un formalismo SQL senza programmare
+        -PIG ->manipolazione dati che usa il linguaggio proprio Pig latin
+        -HBASE -> un database NoSQL di tipo chiave/valore
+
+    *STRUMENTI PER TRASFERIMENTO DI DATI DA E VERSO HADOOP  
+        -SQOOP -> ponte tra database relazionali e Hadoop
+        -KAFKA -> trasmissione flussi dati
+        -STORM -> una pipeline basata su YARN usato per dati realtime
+        -FLUME -> usato per i log e trasferimento di grandi quantità
+                   di dati non strutturati
+        SPARK STREAMING  -> Componente di Apache Spark dedicato 
+                            allo streaming dei dati
+
+    *STRUMENTI PER LA GESTIONE DEI CLUSTER
+        -AMBARI -> capacità complete per la gestione dei cluster HADOOP
+        -ZOOKEEPER -> Strumento per coordinamento per gestire più nodi
+                       e suddivisione di metdati
+        -OOZIE  -> Scheduler per flussi di lavoro per coordinare
+                   la sequenza di operazioni 
+
+    *STRUMETI DEDICATI AL MACHINE LEARNING
+        -MAHOUT -> Principale progetto di Machine Learning basato su Hadoop
+        -SPARK -> ha librerie come mllib 
+
+NODI DEL CLUSTER
+    *nodi MASTER -> gestitscono i nodi slave
+        -HDFS
+            >NameNode:
+                *Sta nel server principale gestendo gli altri nodi
+                *Recettore di qualsiasi richiesta
+                *Conserva la mappa della distribuzione dei 
+                 vari blocchi di file sui nodi
+                    -fsimage -> memorizza la mappe insieme a log
+                *tiene traccai periodicamente dello stato di salute degli
+                 altri nodi del cluster tramite il segnale heartbeat
+
+            >Secondary NameNode:
+                *Supporta il NameNode
+                *Preleva dal NameNode il fsimage e i log in un unico file
+                *Verrà usato solo al sui prossimo avvio per accelerare le operazioni
+       
+        -YARN
+            >NodeManager:
+                *Più istanze, una per nodo slave
+                *All'avvio del cluster si registra presso Resource Manager
+                 e da inizio ad una serie di attività informative sul nodo
+                *Comunica al Resource Manager se un servizio sotto la salute
+                 responsabilità non funziona Più
+                * riferisce sulle attività in corso sulle risorse disponibili nel nodo
+    
+    *nodi SLAVE
+        -HDFS
+            >DataNode:
+                *Nodi deputati alla conservazione dei blocchi dei dati
+                *Operazioni di lettura e scrittura di file
+                *Replica dei blocchi di dati tra nodi diversi
+        -YARN
+            >ResourceManager:
+                *Una sola istanza nel cluster
+                *coordinamento
+                *Possiede mappatura completa degli altri cluster
+                    >ne verifica lo stato di salute mediante heartbeat E
+                     e ritorna il risultato tramite API RREST
+                *Da esso parte la schedulazione delle varie attività
+                 svolte poi dai nodi slave
+
+ACCESSO AL FILE SYSTEM HDFS
+    *Le operazioni sono le tipiche si possono fare in un normale file system
+    *L'accesso avviene mediante:
+        -Da riga di comando
+        -Da WebAPI attraveso un client HTTP
+    *I file solo la fonte principale di informazione
+        -Venono accumulati ed elaborati tramite task
+        -Il riferimento ai file viene fatto tramite indirizzi HDFS
+            >NameNode -> Rintraccia i blocchi sui vari DataNode
+                        e dall'indirizzo si accede al path del file
+
+MAP REDUCE -> Algoritmo 
+    *Elabora grandi quantità dì DATI
+    *In presenza di problemi ai Big Data è necessario analizzare i dat
+        -I risultati dovranno essere aggregati
+    *L'elaborazione viene parallelizzata su più nodi che hanno dati
+    *Più task MapReduce  vengono eseguiti per raggiungere l'obiettivo
+        -concatenati, in cui l'output di un MapReduce viene passato al successivo
+    *Funzioni principali
+        -Avendo dei dati di partenza resi disponibili nel cluster 
+         mediante HDFS, verranno eseguite le funzioni:
+            >map
+                -Lettura dati restituendo come output coppie chiave/valore 
+                    >valore-> strighe, numeri...
+                    >chiave -> etichetta i valori
+            
+            >reduce
+                -riceve il risultato del map
+                    >svolge operazioni di sintesi su ogni singlo gruppo
+                -Il risultato sarà l'output dell'intero processo
+

@@ -1,0 +1,35 @@
+Le 3 V
+    *Volume -> la quantità dei dati è alta
+    *Velocità -> rapidità con cui i dati vengono accumulati
+    *Varietà -> i dati sono altamente variegati
+Altre V
+    *Veridicità di dati -> i dati devono essere affidabili
+    
+I dati devono essere:
+    *Organizzati
+    *Prevedere i tipi di dati possibili
+    *Decidere se strutturarli in arrivo o rielaborarli dopo
+    
+Paradigmi per organizzare i sistemi di dati:
+    *SILOS -> Suddivisione in comparti stagni 
+        -ogni comparto deve mantenere i dati
+        -non deve condividere dati con altri comparti
+        -usato per 
+            >dati non più interessati
+            >riservatezza di informazioni
+    *DATAWAREHOUSE -> archivi strutturati di dati
+        -dati messi in un unico sistema -> strutturati
+            >gestire meglio le sinergie e correlazioni
+        -usato per attività interessanti
+    *DATA LAKE -> lago di dati
+        -ogni dato in arrivo viene accantonato in storage
+            >non viene elaborato in ingresso
+        -Principi:
+            *SCHEMA ON-WRITE -> Strutturazione in scrittura
+                -Esiste un solo schema dati base per il database 
+                 e posono essere inseriti solo se rispettano la struttura
+            *SCHEMA ON-READ -> Strutturazione in lettura
+                -Dati accumulatui e verranno salvati solo quando sono usati,
+                si provvederà quindi ad interpretarli e dattarli alla struttura
+
+Le aziende in base alle necessita integrano più sistemi anche contemporaneamente

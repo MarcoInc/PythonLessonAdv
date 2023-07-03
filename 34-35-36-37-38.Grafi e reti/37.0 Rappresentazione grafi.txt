@@ -1,0 +1,23 @@
+NetworkX non permette di base visionare graficamente i grafi
+e per farlo si appoggia a Matplot
+
+Per visualizzare un grafo e necessario selezionare un LAYOUT
+
+Layout importanti:
+    *circular
+    *planar
+    *shell
+    *spectral
+Il formato tipico della funzione sarà
+    > draw_tipoLayout()
+        draw_circular()...
+
+Alla funione draw_tipoLayout() verranno passati gli argomenti:
+    *grafo da visualizzare
+    *parametri opzionali:
+        >with_labels=True o False per le etichette
+        >node_size per grandezza
+        >node_color per colore
+        >nodelist quali nodi visualizzare
+        >edgelist quali archi visualizzare
+

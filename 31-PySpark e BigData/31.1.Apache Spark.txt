@@ -1,0 +1,57 @@
+Apache Spark -> Framework per BigData completo:
+    -Librerie di elaborazione alternative a MapReduce
+    -Librerie per streaming dei dati
+    -Librerie per il Machine Learning
+
+Nasce con l'obiettivo di:
+    -uniformare il settore dell'elaborazione di BigData
+    -migliorare le condizioni di lavoro del programmatore
+
+Vantaggi:
+    -Velocità -> Superiore a Hadoop
+        >uso di cache in memoria
+            *Hadoop usava dei dischi fisici
+    -Multilinguaggio -> Java, SQL, R, Python
+    -Facile da usare
+    -Varie configurazioni di installazione possibile
+        >Stand-alone
+        >collocato su stack Hadoop, Apache, Mesos, Kubernetes
+        >su Cloud
+    -Comunità molto attiva
+        >include molte librerie realizzate da terze parte
+
+STRUTTURA -> modulare
+    *Resilent Distributed Dataset -> RDD
+        -Substrato di base su cui appoggiano i moduli:
+
+            *Spark SQL -> iterazione con database relazionali
+                -Strutture dati -> DataFrame e Dataset
+                -Eleborazione mediante query o funzioni
+
+            *Spark Streaming -> Trattazione di dati realtime
+            *Mlib -> Libreria per machine Learning
+            *GraphX -> libreria per grafi
+
+PySpark -> Librerie Python di Spark
+    -Disponibili su PyPI
+    -Sia da console che modalità script
+    -Lavora su cluster ma nel nostro caso non li usiamo
+        *verrà lanciato un SERVIZIO LOCALE per simulare il cluster
+
+Componenti di un Cluster Spark:
+    *Cluster Manager -> coordina i vari nodi
+        -offerto da Spark o YARN, Mesos o Kubernetes
+        -Spark funzione in modo indifferente dal tipo di Cluster Manager scelto
+    
+    *Driver Program 
+        -Risiede lo SparkContext -> ponte con il cluster
+            *Elemento da cui verranno eseguiti i nostri programmazione
+            *Ogni operazione interagisce con SparkContext
+    
+    *Worker Node 
+        -Tutti i nodi del cluster tra cui è paralellizzato il lavoro
+            *Ogni nodo attiva un Executor che riceve:
+                >codice da eseguire
+                >task veicolati dal ClusterManager
+            *Ogni applicazione ha il proprio Executor isolato dalle altre
+

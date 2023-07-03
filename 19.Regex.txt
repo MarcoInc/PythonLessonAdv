@@ -1,0 +1,74 @@
+Modelli per cercare corrispondenze interpretabili come istruzioni
+corrispondenza letterale
+ripetizioni
+composizione di modello
+Diramazione
+
+Modulo re
+    import re
+
+JOLLY -> 0 o più occorrenze
+    ca*t -> carattere a zero o più volte
+            #caaaat
+
+INSIEME
+    a[bcd]*b -> inzia per a e da 0 a più volte b o c o d. termina in b
+            #accbbddb
+            
+0 O ALEMENO UNA OCCORRENZA
+    ca+t   -> inizia per a, 1 o più a e finisce con t
+            cat
+
+CARATTERE FACOLTATIVO - 0 o più
+    home-?brew -> inizia per home, - facoltativo, finisce per brew
+
+RIPETIZIONI -> quantificatore
+    a/{1,3}b  ->   carattere / ripetuto da 1 a 3 volte
+            a//b
+    a/{,3}b  -> limite inferiore posto a 0
+    a/{1,}b  -> da 1 a 2 miliadi
+
+PATTERN
+    . (punto) -> qualsiasi carattere tranne il fine riga
+    a (carattere a) -> carattere a
+    ab -> caratteri ab
+    x|y -> x OR y
+    \y -> Escape di carattere speciale
+CLASS DI CARATTERI
+    [a-d]  -> uno tra a b c d
+    [a-d]  -> un carattere tranne a b c d
+    \d    -> un numero
+    \D    -> un non numero
+    \s     -> uno spazio
+    \S     ->un non spazio
+    \w     ->un carattere alfanumerico
+    \W      -> un carattere non alfanumerico
+QUANTIFICATORI
+    x*  -> zero o più ripetizioni di x
+    x+  ->una o più ripetizioni di x
+    x?  -> 0 o una ripetizione di x
+    x{2} -> esattamente 2 ripetizioni di x
+    x{2,5}  -> tra 2 o 5 ripetizioni di x
+
+CARATTERI SOGGETTI A ESCAPE -> che possono esser ignorati come tali
+    \n  -> new line
+    \r   -> carrige return
+    \t    -> tabulazione
+POSIZIONI
+    ^   ->  inizio della stringa
+    \b   -> limite della parola
+    \B    -> non limite della parola
+    $       -> fine della stringa
+Gruppi
+    (x)  -> cattura di un gruppo
+    (?:x)  -> non cattura di un gruppo
+
+Python usa \ come codice di escape
+Per usarlo come carattere va usato doppio \\
+        "\\n"
+Per evitare regex troppo complesse supporta 
+le stringe grezze in cui \ non viene interpretato come escape
+        r"\n"
+        si antepone r alla stringa
+
+
