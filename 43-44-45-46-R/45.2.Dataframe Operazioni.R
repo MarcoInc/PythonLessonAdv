@@ -32,8 +32,14 @@ dim(test) #3 righe e 6 colonne
 
 #Numero di righe [1]
 dim(test)[1]
+  #oppure
+nrow(test)
+
 #Numero di colonne [2]
 dim(test)[2]
+  #oppure
+length(test)
+
 
 #INDEXING nei dataframe
   #SELEZIONE COLONNA
