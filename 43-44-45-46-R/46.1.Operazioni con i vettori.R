@@ -64,7 +64,8 @@ nuovi_numeri
 
 #INCOLLARE GLI ELEMENTI DI UN VETTORE IN UNA STRINGA
   #specifichiamo un separatore tra un elemento e l'altro
-paste(nuovi_numeri,collapse = "//") #ritorna una stringa
+paste(nuovi_numeri,collapse = "//") #ritorna una stringa "..."
+paste(c(1),collapse = "*") #ritorna "1"
 
 #INVERTIRE I VALORI LOGICI
 valori=c(TRUE,FALSE,TRUE) #Da TRUE -> FALSE e da FALSE -> TRUE
