@@ -47,8 +47,8 @@ matplot.ylabel("Valore")
 
 #linee per aumentare la leggibilità del grafico
     #axhline -> linea orrizontale
-    #axvline -> linea verticale
 matplot.axhline(y=3000, color = 'orange', linestyle ='--')
+    #axvline -> linea verticale
 matplot.axvline(x=5, color = 'black', linestyle ='-')
 
 matplot.show()

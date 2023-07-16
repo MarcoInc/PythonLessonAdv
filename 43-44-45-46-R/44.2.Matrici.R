@@ -71,7 +71,7 @@ nuova_matrice #da 2x3 a 3x3
 altra_matrice=matrix(c(40,41,42,43,44,45),
                      nrow=2,
                      byrow=TRUE)
-matrice_full=rbind(nuova_matrice,altra_matrice)
+matrice_full=rbind(nuova_matrice,altra_matrice) #unire due matrici verticalmente
 matrice_full #3x3 + 2x3 = 5x3 -> sono aumentate le righe ma non le colonne
 
 

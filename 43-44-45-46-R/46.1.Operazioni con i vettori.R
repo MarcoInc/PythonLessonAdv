@@ -80,6 +80,3 @@ as.numeric(valori)  #TRUE -> 1 , FALSE -> 0
   #viceversa
 as.logical(c(0,1,1,1,0)) # 1 -> TRUE , 0 -> FALSE
 
-  
-  
-

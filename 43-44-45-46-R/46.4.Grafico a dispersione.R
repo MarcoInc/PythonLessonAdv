@@ -17,14 +17,14 @@ str(Cars93)
 #Possiamo anche evitare di inserire x e y 
   #Max.Price -> Y massima sarà il Max di Price
 plot(Cars93$Price,Cars93$Max.Price,
-     pch=17,                #pch -> forma iconcine
-     col="gray")            #col -> colore iconcine
+    pch=17,                #pch -> forma iconcine
+    col="gray")            #col -> colore iconcine
 
 #AGGIUNGERE PUNTINI -> points
   #Min.Price -> minimo Price rilevato come singolo point
 points(Cars93$Price,Cars93$Min.Price,
-     pch=16,                
-     col="black")  
+    pch=16,                
+    col="black")  
 
 #RETTA DI TENDENZA -> abine(a,b,lty)
   #a -> intercetta

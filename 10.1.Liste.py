@@ -109,6 +109,11 @@ print("Rimuovo l'elemento all'indice 5")
 del lista_num[5] 
 print(lista_num)
 
+a=[1,2,3,4]
+c=0
+for e in a:
+    c=c+e
+    print(c)
 
 
 

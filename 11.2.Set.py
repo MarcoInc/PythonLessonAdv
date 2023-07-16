@@ -97,7 +97,9 @@ print(insieme1.issuperset(insieme2))
 print(insieme1>=insieme2)
 
 
-
+l=[1,2,3,3] #lista
+s=set(l) #lista
+print(s) #non ci sono duplicati
 
 
 

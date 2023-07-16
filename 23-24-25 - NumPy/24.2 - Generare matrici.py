@@ -31,8 +31,3 @@ array3=np.linspace(1,100, 7)
 print("np.linspace(1,100, 7)")
 
 print(array3)
-
-
-
-
-

@@ -5,7 +5,6 @@ print('Istogramma -> hist')
 
 #genera 20 numeri random da 1 a 10
 valori=[rnd.randint(1,10) for x in range(20)]
-
 #Inserisco i valori nell'istogramma
 matplot.hist(valori)
 print(valori)

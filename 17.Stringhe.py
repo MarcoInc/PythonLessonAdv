@@ -170,5 +170,3 @@ print(s.join(stringa.split()))
 
 
 
-
-

@@ -42,7 +42,4 @@ for m in range(1,-10,-1): #da 1 a -10 ad decrementi di 1
     print(m)
 
 
-
-
-
     

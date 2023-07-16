@@ -77,7 +77,3 @@ print(array)
 print("Dopo")   
 print(np.sort(array))
 
-
-
-
-

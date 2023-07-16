@@ -76,8 +76,3 @@ for riga in oggetto_file: #scorro riga per riga
     riga=riga.rstrip("\n")
     print(riga)
 oggetto_file.close()
-
-    
-
-
-
